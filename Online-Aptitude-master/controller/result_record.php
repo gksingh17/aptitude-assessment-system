@@ -42,7 +42,7 @@ if ($connection) {
 
             $mail->Subject = 'CERTIFICATION LINK';
             //$mail->Body    = 'Dear Candidate Click on following link get your Certificate <a href="http://localhost/aptitude_test/view/certificate.php?name="'.$name.'&marks="'.$result.'">Click here</a>';
-            $mybody = "Dear Candidate Click on following link get your Certificate <a href='".BASEPATH."aptitude_test/view/certificate.php?name=".$name."&marks=".$result."'>Click here</a>";
+            $mybody = "Dear Candidate Click on following link to get your Certificate <a href='http://localhost/Online-Aptitude-master/view/certificate.php?name=".$name."&marks=".$result."'>Click here</a>";
             $mail->Body = $mybody;
             $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 

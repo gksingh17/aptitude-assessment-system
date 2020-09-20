@@ -40,7 +40,7 @@ if (isset($_SESSION["user_id"])) {
                     $i = 0;
                     $java_q_index = 0;
                     $q_index = 0;
-                    while ($i < 20) {
+                    while ($i < 15) {
                         echo "<a onclick=" . "showQues('0','java','$java_q_index','$q_index','java_question_div','java_question_title','label1','label2','label3','label4','java_op_a','java_op_b','java_op_c','java_op_d')" . " ><div class='mt-1' id='$q_index' style='width:25px;height:25px;margin-right:10px;background:#c5c5c5;border:1px solid black'></div></a>";
                         $i++;
                         $java_q_index++;
@@ -67,8 +67,8 @@ if (isset($_SESSION["user_id"])) {
                     <?php
                     $i = 0;
                     $php_q_index = 0;
-                    $php_q = 20;
-                    while ($i < 20) {
+                    $php_q = 15;
+                    while ($i < 15) {
                         echo "<a onclick=" . "showQues('1','php','$php_q_index','$php_q','php_question_div','php_question_title','label5','label6','label7','label8','php_op_a','php_op_b','php_oc_c','php_oc_d')" . "><div  id='$php_q' class='mt-1' style='width:25px;height:25px;margin-right:10px;background:#c5c5c5;border:1px solid black'></div></a>";
                         $i++;
                         $php_q_index++;
@@ -93,8 +93,8 @@ if (isset($_SESSION["user_id"])) {
                     <?php
                     $i = 0;
                     $python_q_index = 0;
-                    $python_q = 40;
-                    while ($i < 20) {
+                    $python_q = 30;
+                    while ($i < 15) {
                         echo "<a onclick=" . "showQues('2','python','$python_q_index','$python_q','python_question_div','python_question_title','label9','label10','label11','label12','python_op_a','python_op_b','python_op_c','python_op_d')" . " ><div id='$python_q' class='mt-1' style='width:25px;height:25px;margin-right:10px;background:#c5c5c5;border:1px solid black'></div></a>";
                         $i++;
                         $python_q_index++;

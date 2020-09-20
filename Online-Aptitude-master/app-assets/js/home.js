@@ -150,7 +150,7 @@ function printResult() {
 
 // countdown timer
 var time = $('#time').val();
-time = time * 60;
+time = time * 45; // apply total timer
 var min = time / 60;
 var interval;
 var minutes = min; //per question 1 minute

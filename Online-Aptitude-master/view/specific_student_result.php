@@ -40,7 +40,7 @@ if (isset($_SESSION['user_id'])) {
                                     <td><?php echo $line['exam_date']; ?></td>
                                     <td>
                                         <?php
-                                        echo "<a href='" . BASEPATH . "aptitude_test/view/certificate.php?name=" . $row['user_name'] . "&marks=" . $line['user_result'] . "'>Certificate</a>";
+                                        echo "<a href='./certificate.php?name=" . $row['user_name'] . "&marks=" . $line['user_result'] . "'>Certificate</a>";
                                         ?>
                                     </td>
                                     <!-- <td><a href="http://localhost/aptitude_test/view/certificate.php?name=<?php echo $row['user_name'] ?>&marks=<?php echo $line['user_result'] ?>">Certificate</a></td> -->
