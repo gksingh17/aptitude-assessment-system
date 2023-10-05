@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../app-assets/css/cerificate.css">
+<link rel="stylesheet" href="../app-assets/css/certificate.css">
 <div class="certificate">
     <div class="certificate--inner-wrap">
         <h1>Certificate</h1>

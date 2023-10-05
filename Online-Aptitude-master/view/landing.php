@@ -6,7 +6,7 @@ if (isset($_SESSION['user_id'])) {
             <div class="col-6">
                 <h4 class="text-danger mt-4">Instructions</h4>
                 <ol>
-                    <li>This is Online Aptitue Test Portal</li>
+                    <li>Online Aptitude Test Portal</li>
                     <li>There are <b>3 Section</b> </li>
                     <li>Each Section has <b> 10 Question</b></li>
                     <li>After Completing Exam Press <b>Finish Exam</b> Button</li>
@@ -52,7 +52,7 @@ if (isset($_SESSION['user_id'])) {
                         if($_GET['update']=="false"){
                             echo "Update failed";
                         } else if ($_GET['exist'] == "true") {
-                            echo "Email ID is already registred";
+                            echo "Email ID is already registered";
                         }
                     } ?>
                 </form>
