@@ -1,0 +1,2 @@
+# Aptitude Assessment System
+This project is designed for students to test their knowledge and skills in various subjects for interviews and technical assessments. Built using PHP, JavaScript, HTML, and CSS, this project offers a secure student login for taking subject-based tests. Additionally, an admin portal empowers educators to add questions and answers. Students can conveniently access their test history, track their performance trends, and receive detailed email reports after each test, providing valuable insights into their progress.
